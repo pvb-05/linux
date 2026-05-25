@@ -1,0 +1,7 @@
+Thành viên 2: 
+- Đóng gói các lệnh vào các hàm logic trong Bash Script (.sh).
+- Viết mã tự động hóa và sử dụng lệnh chuyển hướng đầu ra (>) để ghi kết quả thực thi của script vào một file text/báo cáo tự động.  
+
+Thành viên 3:
+- Lên cấu trúc giao diện file báo cáo bằng các thẻ HTML cơ bản (Bảng, danh sách, tiêu đề).
+- Phối hợp với Thành viên 2 để nhúng trực tiếp kết quả xuất ra từ biến của Shell Script vào mã HTML.
