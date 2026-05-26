@@ -61,9 +61,17 @@ get_network_info() {
 }
 
 # Goi ham 
-get_time_info
-get_os_info
-get_cpu_info
-get_ram_info
-get_disk_info
-get_network_info
+# Tao ten file bao cao
+REPORT_FILE="report.txt"
+
+# Tao bao cao va ghi vao file
+{
+    get_time_info
+    get_os_info
+    get_cpu_info
+    get_ram_info
+    get_disk_info
+    get_network_info
+} > "$REPORT_FILE"
+
+echo "Da tao bao cao: $REPORT_FILE"
